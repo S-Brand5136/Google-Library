@@ -12,7 +12,7 @@ import {
   Typography,
 } from "@material-ui/core";
 
-const useStyles = makeStyles((theme) => ({
+const useStyles = makeStyles({
   root: {
     minHeight: "75vh",
     minWidth: "100%",
@@ -23,7 +23,7 @@ const useStyles = makeStyles((theme) => ({
   MuiLinearProgress: {
     color: "#00948B",
   },
-}));
+});
 
 const SearchedItemsGrid = () => {
   const classes = useStyles();
