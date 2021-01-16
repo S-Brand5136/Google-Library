@@ -52,7 +52,7 @@ const SearchedItemsGrid = () => {
               >
                 {error
                   ? error
-                  : "Start searching for your favourite books with the bar in the top right corner.."}
+                  : "Start searching for your favourite books with the bar in the left corner.."}
               </Typography>
             </Grid>
           ) : (
@@ -90,7 +90,7 @@ const SearchedItemsGrid = () => {
                 >
                   {error
                     ? error
-                    : "Start searching for your favourite books with the bar in the top right corner.."}
+                    : "Start searching for your favourite books with the bar in the left corner.."}
                 </Typography>
               )}
             </Grid>
