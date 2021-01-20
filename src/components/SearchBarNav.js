@@ -17,7 +17,8 @@ import { Search } from "@material-ui/icons";
 
 const useStyles = makeStyles((theme) => ({
   header: {
-    backgroundColor: "lightGrey",
+    backgroundColor: "#2A2A2A",
+    color: "white",
     borderRadius: "5px",
     [theme.breakpoints.down("md")]: {
       borderRadius: "0px",
@@ -26,20 +27,25 @@ const useStyles = makeStyles((theme) => ({
   option: {
     marginLeft: "1rem",
     maxWidth: "70%",
+    color: "white",
   },
   optionSelected: {
     marginLeft: "1rem",
     maxWidth: "70%",
+    color: "white",
   },
   addCursor: {
     cursor: "pointer",
   },
   input: {
     border: "1px solid black",
+    color: "white",
     borderRadius: "10px",
   },
   root: {
     marginRight: ".5rem",
+    backgroundColor: "#2A2A2A",
+    borderRadius: "10px",
     [theme.breakpoints.down("md")]: {
       marginRight: "0",
     },

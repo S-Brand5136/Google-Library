@@ -10,6 +10,7 @@ import {
   LinearProgress,
   makeStyles,
   Typography,
+  Hidden,
 } from "@material-ui/core";
 
 const useStyles = makeStyles({
@@ -19,6 +20,10 @@ const useStyles = makeStyles({
   },
   MuiTypography: {
     margin: "5rem",
+    backgroundColor: "#2A2A2A",
+    borderRadius: "10px",
+    color: "white",
+    padding: "1rem",
   },
   MuiLinearProgress: {
     color: "#00948B",
@@ -36,7 +41,7 @@ const SearchedItemsGrid = () => {
         <Grid item xs={12} sm={12} lg={2}>
           <SearchBarNav />
         </Grid>
-        <Grid container item sm={12} lg={10}>
+        <Grid container item xs={12} sm={12} lg={10}>
           {loading && (
             <Grid item xs={12}>
               <LinearProgress />
@@ -44,16 +49,30 @@ const SearchedItemsGrid = () => {
           )}
           {!list || list.length <= 0 ? (
             <Grid item xs={12}>
-              <Typography
-                className={classes.MuiTypography}
-                align="center"
-                variant="h4"
-                component="h2"
-              >
-                {error
-                  ? error
-                  : "Start searching for your favourite books with the bar in the left corner.."}
-              </Typography>
+              <Hidden mdDown>
+                <Typography
+                  className={classes.MuiTypography}
+                  align="center"
+                  variant="h4"
+                  component="h4"
+                >
+                  {error
+                    ? error
+                    : "Start searching for your favourite books with the bar in the left corner.."}
+                </Typography>
+              </Hidden>
+              <Hidden lgUp>
+                <Typography
+                  className={classes.MuiTypography}
+                  align="center"
+                  variant="h4"
+                  component="h4"
+                >
+                  {error
+                    ? error
+                    : "Start searching for your favourites with the bar up top.."}
+                </Typography>
+              </Hidden>
             </Grid>
           ) : (
             <Grid item xs={12}>

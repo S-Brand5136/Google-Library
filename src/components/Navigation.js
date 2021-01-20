@@ -6,6 +6,7 @@ import { Box, Grid, makeStyles, Typography } from "@material-ui/core";
 const useStyles = makeStyles({
   MuiBox: {
     marginTop: "5rem",
+    color: "white",
   },
 });
 

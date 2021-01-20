@@ -1,11 +1,12 @@
 html {
-  background-color: #f8f8f8;
+  background-image: url(./img/backgroundImage.jpg);
+  background-size: cover;
+  background-repeat: repeat;
   margin: none;
   padding: none;
 }
 
 #searchForm {
-  background-color: #f8f8f8;
 }
 
 @media only screen and (min-width: 1000px) {

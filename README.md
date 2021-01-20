@@ -1,11 +1,21 @@
-## Available Scripts
+## Google-Library
 
-In the project directory, you can run:
+Search googles library API for your favourite book using
 
-### `npm start`
+### Usage
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+first run these two commands
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+`git clone git@github.com:S-Brand5136/Google-Library.git`
+
+`npm install`
+
+then inside your root folder create a .env file Go to https://developers.google.com/maps/documentation/javascript/get-api-key and follow the steps to get an API key
+
+inside of your .env file add
+
+REACT_APP_GOOGLE_API={YOUR API KEY HERE}
+
+finally run
+
+`npm start`
