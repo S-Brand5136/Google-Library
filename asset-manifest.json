@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/Google-Library/static/css/main.8472e453.chunk.css",
-    "main.js": "/Google-Library/static/js/main.59ff5754.chunk.js",
-    "main.js.map": "/Google-Library/static/js/main.59ff5754.chunk.js.map",
+    "main.css": "/Google-Library/static/css/main.b4319734.chunk.css",
+    "main.js": "/Google-Library/static/js/main.2242084b.chunk.js",
+    "main.js.map": "/Google-Library/static/js/main.2242084b.chunk.js.map",
     "runtime-main.js": "/Google-Library/static/js/runtime-main.2533d877.js",
     "runtime-main.js.map": "/Google-Library/static/js/runtime-main.2533d877.js.map",
     "static/js/2.682bf44e.chunk.js": "/Google-Library/static/js/2.682bf44e.chunk.js",
     "static/js/2.682bf44e.chunk.js.map": "/Google-Library/static/js/2.682bf44e.chunk.js.map",
     "index.html": "/Google-Library/index.html",
-    "static/css/main.8472e453.chunk.css.map": "/Google-Library/static/css/main.8472e453.chunk.css.map",
-    "static/js/2.682bf44e.chunk.js.LICENSE.txt": "/Google-Library/static/js/2.682bf44e.chunk.js.LICENSE.txt"
+    "static/css/main.b4319734.chunk.css.map": "/Google-Library/static/css/main.b4319734.chunk.css.map",
+    "static/js/2.682bf44e.chunk.js.LICENSE.txt": "/Google-Library/static/js/2.682bf44e.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/Google-Library/static/media/backgroundImage.1f96231b.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.2533d877.js",
     "static/js/2.682bf44e.chunk.js",
-    "static/css/main.8472e453.chunk.css",
-    "static/js/main.59ff5754.chunk.js"
+    "static/css/main.b4319734.chunk.css",
+    "static/js/main.2242084b.chunk.js"
   ]
 }
